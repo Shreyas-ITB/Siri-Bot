@@ -421,9 +421,9 @@ module.exports.run =
 }
 
 module.exports.config = {
-  name: 'serverstatus',
-  aliases: ['status', 'server', 'servers', 'nodes', 'node'],
-  category: 'general',
-  desc: 'Display the status of the servers',
+  name: '',
+  aliases: ['', '', '', '', ''],
+  category: '',
+  desc: '',
   usage: ''
 }
