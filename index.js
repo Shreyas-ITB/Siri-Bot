@@ -17,8 +17,8 @@ const prefix = config.prefix;
 const client = new Discord.Client();
 
 const allowed_channels = [
-    "678301439835111455", // bots
-    "819146399764840448"  // bots-2
+    "882669874638385222", // bots
+    "937685944503509053"  // bots-2
 ];
 
 dayjs.extend(require('dayjs/plugin/utc'));
@@ -52,7 +52,7 @@ client.on("ready", () => {
         console.log("Started the statistics");
     }
 
-    client.user.setActivity("with your duinos - !help", { type: "PLAYING" });
+    client.user.setActivity("lots of SiriCoins - !help", { type: "DONATING" });
 })
 
 client.commands = new Discord.Collection();
@@ -96,7 +96,7 @@ client.on("message", async (message) => {
     if (message.content.startsWith(prefix)) {
         if (!allowed_channels.includes(message.channel.id) && !message.member.hasPermission("MANAGE_MESSAGES")) {
             message.channel.send(message.author.username
-                + ", use the <#678301439835111455> channel for bot commands!")
+                + ", use the <#882669874638385222> channel for bot commands!")
             .then(msg => {
                 msg.delete({
                     timeout: 5000
@@ -156,13 +156,13 @@ client.on("messageDelete", async (message) => {
 let lastJoined = [];
 
 client.on("guildMemberAdd", async (member) => {
-    if (member.guild.id != "677615191793467402") return;
+    if (member.guild.id != "878706742177988608") return;
 
     if (config.antiRaid) {
         if (lastJoined.length >= 5) {
             console.log(lastJoined[0] - Date.now())
             /*if (lastJoined[0] - Date.now() < 60000) {
-                member.send("You've been kicked from Duino-Coin Discord because it's currently under attack! \
+                member.send("You've been kicked from SiriCoin Discord because it's currently under attack! \
                             If you're a not a bot you can try to join again in 1 minute https://discord.gg/k48Ht5y");
                 member.kick();
                 client.channels.cache.get(config.logChannelID).send(`Raid detected! <@${member.id}> has been kicked`);
@@ -172,7 +172,7 @@ client.on("guildMemberAdd", async (member) => {
         lastJoined.push(Date.now());
     }
 
-    const channel = member.guild.channels.cache.find(c => c.id === "677617050503479325");
+    const channel = member.guild.channels.cache.find(c => c.id === "878706742177988608");
     const role = member.guild.roles.cache.find(r => r.name === "Member");
     if (!role)
         return;
@@ -186,9 +186,9 @@ client.on("guildMemberAdd", async (member) => {
         guildInvites.set(member.guild.id, newInvites);
         const usedInvite = newInvites.find(invite => cachedInvites.get(invite.code).uses < invite.uses)
 
-        channel.send(`<:duco_logo:832307063395975218> Welcome on the **official Duino-Coin Discord**, **<@${member.id}>**!\nInvited by **${usedInvite.inviter.tag}**`);
+        channel.send(`:SiriCoinLogo: Welcome to the **Official SiriCoin Server**, **<@${member.id}>**!\nInvited by **${usedInvite.inviter.tag}**`);
     } catch {
-        channel.send(`<:duco_logo:832307063395975218> Welcome on the **official Duino-Coin Discord**, **<@${member.id}>**!\nBut I couldn't figure out the inviter ¯\\_(ツ)_/¯`);
+        channel.send(`:SiriCoinLogo: Welcome to the **Official SiriCoin Server**, **<@${member.id}>**!\nBut I couldn't figure out the inviter ¯\\_(ツ)_/¯`);
     }
 
 })
