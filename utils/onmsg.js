@@ -27,7 +27,7 @@ module.exports.run = async (client, message, args, color) => {
                     userID: message.author.id,
                     reason: "Posted an invite",
                     type: "Warn",
-                    moderator: "Duino",
+                    moderator: "Siri",
                     time: date,
                     count: 1
                 });
@@ -35,7 +35,7 @@ module.exports.run = async (client, message, args, color) => {
                 newIncident.save().catch(err => message.channel.send(err));
             } else {
                 query.reason.push("Posted an invite");
-                query.moderator.push("Duino");
+                query.moderator.push("Siri");
                 query.time.push(date);
                 query.type.push("Warn");
                 query.count += 1;
@@ -47,7 +47,7 @@ module.exports.run = async (client, message, args, color) => {
         const dmEmbed = new MessageEmbed()
             .setTitle("You have been warned")
             .addField("Reason", "Posted an invite")
-            .addField("Moderator", "Duino")
+            .addField("Moderator", "Siri")
             .addField("Date", date)
             .setColor("#ff5c5c")
             .setFooter("The date is UTC+2")
@@ -57,7 +57,7 @@ module.exports.run = async (client, message, args, color) => {
             .setTitle("New warn")
             .setDescription(`**${message.author.username}** have been warned!`)
             .addField("Reason", "Posted an invite")
-            .addField("Moderator", "Duino")
+            .addField("Moderator", "Siri")
             .addField("Date", date)
             .setColor("#ff5c5c")
             .setFooter("The date is UTC+2")
