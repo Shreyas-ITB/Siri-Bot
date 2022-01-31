@@ -1,6 +1,6 @@
-<h1 align="center">Welcome to duino-stats 👋</h1>
+<h1 align="center">Welcome to Siri-Bot Official Repository 👋</h1>
 <p align ="center">
-    <a href="https://discord.gg/k48Ht5y">
+    <a href="https://discord.gg/FcczUFeuAx">
         <img alt="Discord" src="https://img.shields.io/discord/677615191793467402.svg?label=&logo=discord&style=for-the-badge&logoColor=ffffff&color=7389D8&labelColor=6A7EC2"/>
     </a>
     <img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
@@ -17,9 +17,9 @@
 </p>
 
 Duino stats is a discord bot made with discord.js v12 for Duino-Coin  
-  * [Duino-Coin Github page](https://github.com/revoxhere/duino-coin)
-  * [Duino-Coin Website](https://duinocoin.com) 
-  * [Duino-Coin Discord](https://discord.gg/k48Ht5y) 
+  * [SiriCoin Github](https://github.com/siricoin-project)
+  * [SiriCoin Website](https://duinocoin.com) 
+  * [SiriCoin Discord](https://discord.gg/FcczUFeuAx) 
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Bilaboz](https://github.com/Bilaboz).<br />
-This project is [MIT](https://github.com/Bilaboz/duino-stats/blob/main/LICENSE) licensed.
+Copyright © 2022 [Shreyas-ITB](https://github.com/Shreyas-ITB).<br />
+This project is [MIT](https://github.com/Shreyas-ITB/Siri-Bot/blob/main/LICENSE) licensed.
 
 ***
