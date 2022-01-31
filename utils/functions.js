@@ -31,7 +31,7 @@ module.exports = {
                     .setAuthor(message.author.username, message.author.avatarURL())
                     .setDescription(finalStr)
                     .setColor("#00aede")
-                    .setFooter("Duino Stats", "https://cdn.discordapp.com/avatars/691404890290913280/82a989583ce771a37676b58f07731c85.webp") // doing this manually to avoid passing client as a third argument
+                    .setFooter("SiriBot", "https://cdn.discordapp.com/attachments/882648949343784991/935210731673112576/siricoinlogo-removebg-preview.png") // doing this manually to avoid passing client as a third argument
                     .setTimestamp()
                     
                 message.channel.send(multipleEmbed);
