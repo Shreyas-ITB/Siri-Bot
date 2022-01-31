@@ -1,13 +1,13 @@
 {
     "prefix": "!",
-    "serverVersion": "2.7",
+    "serverVersion": "1.1",
 
     "antiRaid": true,
 
-    "logChannelID": "692701750536175646",
-    "statisticsChannelID": "691936892458893342",
-    "countingChannelID": "789855163393376276",
-    "suggestionChannelID": "677616731468070921",
+    "logChannelID": "937690428025765889",
+    "statisticsChannelID": "935833934154072064",
+    "countingChannelID": "937691418263175188",
+    "suggestionChannelID": "882669671466287124",
 
     "trueEmojiID": "704740848314613960",
     "falseEmojiID": "692069337854378026"
