@@ -33,7 +33,7 @@ npm install
 ```
 ## Configuration
 
-Create a `.env` file, and replace your bot token and your mongodb connection url in it
+replace your bot token and your mongodb connection url in ```.env file```
 
 ```
 token=<discord bot token>
