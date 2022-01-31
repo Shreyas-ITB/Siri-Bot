@@ -46,9 +46,9 @@ module.exports.run = async (client, message, args, color) => {
 }
 
 module.exports.config = {
-    name: "balance",
-    aliases: ["bal"],
-    category: "general",
-    desc: "Get user balance",
-    usage: "<DUCO username>"
+    name: "",
+    aliases: [""],
+    category: "",
+    desc: "",
+    usage: ""
 }
