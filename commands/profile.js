@@ -49,7 +49,7 @@ module.exports.run = async(client, message, args, color) => {
             query.streak = 0;
 
         let finalstring = `**Level**: ${query.level}
-                           **Bot coins**: ${query.coins} (${query.coins/100} DUCO)
+                           **Bot coins**: ${query.coins} (${query.coins/100} Siri)
                            **XP**: ${query.xp} ( ${query.xp}/${xpNeeded} )\n
                            **Bumps**: ${query.bumps}
                            **Daily streak**: ${query.streak}\n
