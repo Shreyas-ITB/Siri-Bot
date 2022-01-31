@@ -68,9 +68,9 @@ module.exports.run = async (client, message) => {
 }
 
 module.exports.config = {
-    name: "start",
+    name: "",
     aliases: [],
-    category: "admin",
-    desc: "Start the stats",
+    category: "",
+    desc: "",
     usage: ""
 }
