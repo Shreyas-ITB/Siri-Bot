@@ -16,7 +16,7 @@
     </a>
 </p>
 
-Duino stats is a discord bot made with discord.js v12 for Duino-Coin  
+SiriCoin Siri-Bot is a discord bot made with discord.js v12 for SiriCoin CryptoCurrency Server
   * [SiriCoin Github](https://github.com/siricoin-project)
   * [SiriCoin Website](https://duinocoin.com) 
   * [SiriCoin Discord](https://discord.gg/FcczUFeuAx) 
