@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 module.exports.run = async (client, message, args, color) => {
     const embed = new MessageEmbed()
         .setAuthor(message.author.username, message.author.avatarURL())
-        .setDescription(`<:duco:807188450393980958> Duino-Coin Webwallet is currently available at this address: **https://wallet.duinocoin.com**`)
+        .setDescription(`:SiriCoinLogo: You can setup Metamask Wallet As SiriCoin Wallet steps are shown in the docs website Just go to ==> **https://docs.siricoin.tech/**`)
         .setFooter(client.user.username, client.user.avatarURL())
         .setTimestamp()
         .setColor(color.yellow)
@@ -12,9 +12,9 @@ module.exports.run = async (client, message, args, color) => {
 }
 
 module.exports.config = {
-    name: "webwallet",
+    name: "setupwallet",
     aliases: [],
     category: "general",
-    desc: "Send the webwallet link",
+    desc: "Shows the Steps to Setup the extention wallet",
     usage: ""
 }
